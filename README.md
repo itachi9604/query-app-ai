@@ -8,7 +8,7 @@ make sure you have django , python 3.9 and openai library installed else install
 
 
 1. create an API key on this site : https://beta.openai.com
-2. Open views.py in QueryForm directory and paste the API key in variable API_KEY. 
+2. Open views.py in QueryForm directory and paste the API key in variable API_KEY. check this path : GetQuery/QueryForm/views.py
 3. If you can't find the views.py file, open the folder in pycharm and click on TODO tab at bottom of pycharm then paste the key
 4. open terminal at the level where manage.py is present 
 5. hit command : python3 manage.py runserver
