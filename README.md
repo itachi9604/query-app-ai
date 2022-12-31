@@ -15,3 +15,4 @@ make sure you have django , python 3.9 and openai library installed else install
 
 <img width="1271" alt="Screenshot 2022-12-30 at 7 44 39 PM" src="https://user-images.githubusercontent.com/49924204/210079637-c3a09c6a-b1a2-4f5f-80d7-62abd1a2f80e.png">
 
+https://user-images.githubusercontent.com/49924204/210131810-5186e552-b24c-4655-b4b3-f9142a1b6156.mp4
