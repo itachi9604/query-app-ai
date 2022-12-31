@@ -1,9 +1,10 @@
 from .forms import QueryFormInputs
 from django.shortcuts import render
 import openai
+import os
 
 # TODO: Paste your API key form open ai below
-API_KEY = ""
+API_KEY = os.getenv("API_KEY")
 
 
 def _talk_to_ai(query):

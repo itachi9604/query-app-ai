@@ -1,0 +1,14 @@
+version: '3.3'
+
+services:
+  query-app-api:
+    container_name: query-app-api
+    build: ./
+    working_dir: /app
+    volumes:
+      - ./GetQuery/:/app
+    environment:
+      - API_KEY=INSERT-YOUR-API-KEY-HERE
+    command: bash -c "python3 manage.py runserver 0.0.0.0:8000"
+    ports:
+      - 8000:8000
